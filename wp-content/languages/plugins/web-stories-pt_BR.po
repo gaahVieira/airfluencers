@@ -1,0 +1,1665 @@
+# Translation of Plugins - Web Stories - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - Web Stories - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-11-15 18:55:11+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - Web Stories - Stable (latest release)\n"
+
+#. translators: 1: error message. 2: location.
+#: includes/AMP/Output_Buffer.php:241 includes/Integrations/Ezoic.php:142
+msgid "Error message: %1$s (%2$s)"
+msgstr "Mensagem de erro: %1$s (%2$s)"
+
+#. translators: %s: Date and time of the revision.
+#: includes/Admin/Editor.php:419
+msgid "Story restored to revision from %s."
+msgstr "História restaurada para revisão de %s."
+
+#: includes/Settings.php:389
+msgid "Auto-advance"
+msgstr "Avanço automático"
+
+#: includes/REST_API/Stories_Lock_Controller.php:439
+msgid "Avatar URLs for the user."
+msgstr "URLs de avatar para o usuário."
+
+#. translators: %d: Avatar image size in pixels.
+#: includes/REST_API/Stories_Lock_Controller.php:431
+msgid "Avatar URL with image size of %d pixels."
+msgstr "URL de avatar com tamanho de %d píxeis."
+
+#: includes/REST_API/Stories_Lock_Controller.php:413
+msgid "Display name for the user."
+msgstr "Nome de exibição para o usuário."
+
+#: includes/REST_API/Stories_Lock_Controller.php:403
+msgid "User"
+msgstr "Usuário"
+
+#: includes/Story_Revisions.php:197
+msgid "Content"
+msgstr "Conteúdo"
+
+#: includes/Story_Revisions.php:174
+msgid "Added"
+msgstr "Adicionado"
+
+#: includes/Story_Revisions.php:173
+msgid "Removed"
+msgstr "Removido"
+
+#: includes/REST_API/Stories_Controller.php:262
+#: includes/Story_Post_Type.php:167
+msgid "Poster URL."
+msgstr "URL da imagem de capa"
+
+#: includes/REST_API/Stories_Controller.php:251
+msgid "Poster ID"
+msgstr "ID da imagem de capa"
+
+#: includes/Shopping/WooCommerce_Query.php:77
+msgid "WooCommerce is not activated. Please activate it again try again."
+msgstr "WooCommerce não está ativado. Ative-o novamente, tente novamente."
+
+#: includes/Shopping/Shopify_Query.php:375
+#: includes/Shopping/Shopify_Query.php:433
+msgid "Error fetching products from Shopify."
+msgstr "Erro ao buscar produtos da Shopify."
+
+#: includes/REST_API/Stories_Taxonomies_Controller.php:139
+msgid "Whether to show only show taxonomies that allow a UI in the admin."
+msgstr "Se deve mostrar apenas taxonomias que permitem uma interface do usuário no admin."
+
+#: includes/REST_API/Stories_Taxonomies_Controller.php:134
+msgid "Whether to show only hierarchical taxonomies."
+msgstr "Se deve mostrar apenas taxonomias hierárquicas."
+
+#: includes/REST_API/Products_Controller.php:514
+msgid "Order sort attribute ascending or descending."
+msgstr "Ordenar atributos de forma ascendente ou descendente."
+
+#: includes/REST_API/Products_Controller.php:503
+msgid "Sort collection by product attribute."
+msgstr "Ordenar coleção pelo atributo do produto."
+
+#: includes/REST_API/Products_Controller.php:183
+msgid "No shopping provider set up."
+msgstr "Nenhum provedor de compras configurado."
+
+#: includes/Integrations/WooCommerce.php:89
+msgid "https://wordpress.org/plugins/woocommerce/"
+msgstr "https://wordpress.org/plugins/woocommerce/"
+
+#: includes/Shopping/Product_Meta.php:95 assets/js/web-stories-editor.js:136
+msgid "Products"
+msgstr "Produtos"
+
+#: includes/Shopping/WooCommerce_Query.php:73
+msgid "WooCommerce is not installed."
+msgstr "WooCommerce não está instalado."
+
+#: includes/Integrations/WooCommerce.php:82
+#: includes/Shopping/Shopping_Vendors.php:99
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/Shopping/Shopping_Vendors.php:95
+msgid "Shopify"
+msgstr "Shopify"
+
+#: includes/Shopping/Shopify_Query.php:239
+msgid "Invalid API credentials."
+msgstr "Credenciais de API inválidas."
+
+#: includes/Shopping/Shopify_Query.php:214
+msgid "Invalid Shopify hostname."
+msgstr "Hostname da Shopify inválido."
+
+#: includes/Shopping/Shopify_Query.php:210
+msgid "Missing API credentials."
+msgstr "Credenciais de API ausentes."
+
+#: includes/Settings.php:355 assets/js/web-stories-dashboard.js:59
+msgid "Shopping provider"
+msgstr "Provedor de compras"
+
+#: includes/REST_API/Products_Controller.php:394
+msgid "Product URL."
+msgstr "URL do produto."
+
+#: includes/REST_API/Products_Controller.php:155
+msgid "Sorry, you are not allowed to manage products."
+msgstr "Sem permissão para gerenciar produtos."
+
+#: includes/Settings.php:378
+msgid "Shopify API Access Token"
+msgstr "Token de acesso à API da Shopify"
+
+#: includes/Settings.php:367
+msgid "Shopify Host"
+msgstr "Host da Shopify"
+
+#: includes/REST_API/Products_Controller.php:471
+msgid "Product description."
+msgstr "Descrição do produto."
+
+#: includes/REST_API/Products_Controller.php:461
+msgid "Product review URL."
+msgstr "URL de revisão do produto."
+
+#: includes/REST_API/Products_Controller.php:456
+msgid "Number of reviews."
+msgstr "Número de avaliações"
+
+#: includes/REST_API/Products_Controller.php:451
+msgid "Average rating."
+msgstr "Classificação média."
+
+#: includes/REST_API/Products_Controller.php:447
+msgid "Product rating."
+msgstr "Classificação do produto."
+
+#: includes/REST_API/Products_Controller.php:437
+msgid "Product image alt text"
+msgstr "Texto alternativo da imagem do produto"
+
+#: includes/REST_API/Products_Controller.php:431
+msgid "Product image URL"
+msgstr "URL da imagem do produto"
+
+#: includes/REST_API/Products_Controller.php:419
+msgid "Product currency."
+msgstr "Moeda do produto."
+
+#: includes/REST_API/Products_Controller.php:413
+msgid "Product price."
+msgstr "Preço do produto."
+
+#: includes/REST_API/Products_Controller.php:407
+#: includes/REST_API/Products_Controller.php:425
+msgid "Product brand."
+msgstr "Marca do produto."
+
+#: includes/REST_API/Products_Controller.php:401
+msgid "Product title."
+msgstr "Título do produto."
+
+#: includes/REST_API/Products_Controller.php:388
+msgid "Product ID."
+msgstr "ID do produto."
+
+#: includes/Shopping/Shopify_Query.php:243
+msgid "Error fetching products"
+msgstr "Erro ao buscar produtos"
+
+#. translators: %s: Instagram username.
+#: includes/REST_API/Link_Controller.php:183
+msgid "Instagram - @%s"
+msgstr "Instagram - @%s"
+
+#: includes/REST_API/Page_Template_Controller.php:168
+#: includes/REST_API/Page_Template_Controller.php:199
+msgid "Sorry, you are not allowed to edit page templates."
+msgstr "Sem permissão para editar modelo de página."
+
+#: includes/REST_API/Font_Controller.php:484
+msgid "Font URL."
+msgstr "URL da fonte."
+
+#: includes/REST_API/Font_Controller.php:450
+msgid "Font variants"
+msgstr "Variantes de fonte"
+
+#: includes/REST_API/Font_Controller.php:440
+msgid "Font styles"
+msgstr "Estilos de fonte"
+
+#: includes/REST_API/Font_Controller.php:428
+msgid "Font weights"
+msgstr "Espessuras da fonte"
+
+#: includes/REST_API/Font_Controller.php:419
+msgid "Fallback fonts"
+msgstr "Fontes reserva"
+
+#: includes/REST_API/Font_Controller.php:413
+msgid "The font family"
+msgstr "A família da fonte"
+
+#: includes/REST_API/Font_Controller.php:369
+msgid "Filter fonts by service."
+msgstr "Filtro de fontes por serviço."
+
+#: includes/REST_API/Font_Controller.php:360
+msgid "Limit result set to specific fonts."
+msgstr "Limite o conjunto de resultados a fontes específicas."
+
+#: includes/REST_API/Font_Controller.php:353
+msgid "Limit results to those matching a string."
+msgstr "Limite os resultados àqueles que correspondem ao texto."
+
+#: includes/REST_API/Font_Controller.php:666
+msgid "A font with this name already exists"
+msgstr "Já existe uma fonte com este nome"
+
+#: includes/REST_API/Font_Controller.php:234
+msgid "Sorry, you are not allowed to list fonts."
+msgstr "Sem permissão para listar fontes."
+
+#: includes/REST_API/Font_Controller.php:109
+#: includes/REST_API/Font_Controller.php:478
+msgid "Unique identifier for the font."
+msgstr "Identificador único para a fonte."
+
+#: includes/Media/Blurhash.php:67
+msgid "Attachment BlurHash"
+msgstr "Desfoque de anexo"
+
+#: includes/Media/Base_Color.php:67
+msgid "Attachment base color"
+msgstr "Cor da base do anexo"
+
+#: includes/Taxonomy/Category_Taxonomy.php:94
+msgctxt "navigation link block description"
+msgid "A link to a category."
+msgstr "Um link para uma categoria."
+
+#: includes/Taxonomy/Category_Taxonomy.php:93
+msgctxt "navigation link block title"
+msgid "Category Link"
+msgstr "Link da categoria"
+
+#: includes/Taxonomy/Tag_Taxonomy.php:94
+msgid "&larr; Go to Tags"
+msgstr "&larr, Acessar tags"
+
+#. translators: Tab heading when selecting from the most used terms.
+#: includes/Taxonomy/Tag_Taxonomy.php:93
+msgctxt "Tags"
+msgid "Most Used"
+msgstr "Mais usadas"
+
+#: includes/Taxonomy/Tag_Taxonomy.php:91
+msgid "Tags list"
+msgstr "Lista de tags"
+
+#: includes/Taxonomy/Tag_Taxonomy.php:90
+msgid "Tags list navigation"
+msgstr "Navegação da lista de tags"
+
+#: includes/Taxonomy/Tag_Taxonomy.php:89
+msgid "No tags"
+msgstr "Nenhuma tag"
+
+#: includes/Taxonomy/Tag_Taxonomy.php:88
+msgid "No tags found."
+msgstr "Nenhuma tag encontrada."
+
+#: includes/Taxonomy/Tag_Taxonomy.php:87
+msgid "Choose from the most used tags"
+msgstr "Escolher das tags mais usadas"
+
+#: includes/Taxonomy/Tag_Taxonomy.php:86
+msgid "Add or remove tags"
+msgstr "Adicionar ou remover tags"
+
+#: includes/Taxonomy/Tag_Taxonomy.php:85
+msgid "Separate tags with commas"
+msgstr "Separar tags com vírgulas"
+
+#: includes/Taxonomy/Tag_Taxonomy.php:84
+msgid "New Tag Name"
+msgstr "Nome da nova tag"
+
+#: includes/Taxonomy/Tag_Taxonomy.php:83
+msgid "Add New Tag"
+msgstr "Adicionar nova tag"
+
+#: includes/Taxonomy/Tag_Taxonomy.php:82
+msgid "Update Tag"
+msgstr "Atualizar tag"
+
+#: includes/Taxonomy/Tag_Taxonomy.php:81
+msgid "View Tag"
+msgstr "Visualizar tag"
+
+#: includes/Taxonomy/Tag_Taxonomy.php:80
+msgid "Edit Tag"
+msgstr "Editar tag"
+
+#: includes/Taxonomy/Tag_Taxonomy.php:79
+msgid "All Tags"
+msgstr "Todas as tags"
+
+#: includes/Taxonomy/Tag_Taxonomy.php:78
+msgid "Popular Tags"
+msgstr "Tags populares"
+
+#: includes/Taxonomy/Tag_Taxonomy.php:77
+msgid "Search Tags"
+msgstr "Procurar tags"
+
+#: includes/Taxonomy/Tag_Taxonomy.php:76
+msgctxt "taxonomy singular name"
+msgid "Tag"
+msgstr "Tag"
+
+#: includes/Taxonomy/Tag_Taxonomy.php:75
+msgctxt "taxonomy general name"
+msgid "Tags"
+msgstr "Tags"
+
+#: includes/Taxonomy/Category_Taxonomy.php:92
+msgid "&larr; Go to Categories"
+msgstr "&larr; Ir para categorias"
+
+#. translators: Tab heading when selecting from the most used terms.
+#: includes/Taxonomy/Category_Taxonomy.php:91
+msgctxt "Categories"
+msgid "Most Used"
+msgstr "Mais usadas"
+
+#: includes/Taxonomy/Category_Taxonomy.php:89
+msgid "Categories list"
+msgstr "Lista de categorias"
+
+#: includes/Taxonomy/Category_Taxonomy.php:88
+msgid "Categories list navigation"
+msgstr "Navegação da lista de categorias"
+
+#: includes/Taxonomy/Category_Taxonomy.php:87
+msgid "Filter by category"
+msgstr "Filtrar por categoria"
+
+#: includes/Taxonomy/Category_Taxonomy.php:86
+msgid "No categories"
+msgstr "Nenhuma categoria"
+
+#: includes/Taxonomy/Category_Taxonomy.php:85
+msgid "No categories found."
+msgstr "Nenhuma categoria encontrada."
+
+#: includes/Taxonomy/Category_Taxonomy.php:84
+msgid "New Category Name"
+msgstr "Novo nome de Categoria"
+
+#: includes/Taxonomy/Category_Taxonomy.php:83
+msgid "Add New Category"
+msgstr "Adicionar nova Categoria"
+
+#: includes/Taxonomy/Category_Taxonomy.php:82
+msgid "Update Category"
+msgstr "Atualizar Categoria"
+
+#: includes/Taxonomy/Category_Taxonomy.php:81
+msgid "View Category"
+msgstr "Visualizar Categoria"
+
+#: includes/Taxonomy/Category_Taxonomy.php:80
+msgid "Edit Category"
+msgstr "Editar Categoria"
+
+#: includes/Taxonomy/Category_Taxonomy.php:79
+msgid "Parent Category:"
+msgstr "Categoria mãe:"
+
+#: includes/Taxonomy/Category_Taxonomy.php:78
+msgid "Parent Category"
+msgstr "Categoria mãe"
+
+#: includes/Taxonomy/Category_Taxonomy.php:77
+msgid "All Categories"
+msgstr "Todas as Categorias"
+
+#: includes/Taxonomy/Category_Taxonomy.php:76
+msgid "Search Categories"
+msgstr "Pesquisar Categorias"
+
+#: includes/Taxonomy/Category_Taxonomy.php:75
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr "Categoria"
+
+#: includes/Taxonomy/Category_Taxonomy.php:74
+msgctxt "taxonomy general name"
+msgid "Categories"
+msgstr "Categorias"
+
+#: includes/Story_Archive.php:212
+msgid "Web Stories Archive Page"
+msgstr "Página de arquivo de Web Stories"
+
+#: includes/Settings.php:323
+msgid "Web Stories Archive Page ID"
+msgstr "ID da página de arquivo de Web Stories"
+
+#: includes/Settings.php:307
+msgid "Web Stories Archive"
+msgstr "Arquivo de Web Stories"
+
+#: includes/Settings.php:186
+msgid "Using legacy analytics configuration"
+msgstr "Usar configurações legadas de analíse"
+
+#: includes/REST_API/Publisher_Logos_Controller.php:473
+msgid "Whether the publisher logo is the default one."
+msgstr "Se o logo de editor é o padrão."
+
+#: includes/REST_API/Publisher_Logos_Controller.php:460
+msgid "Publisher logo title."
+msgstr "Título do logo de editor."
+
+#: includes/REST_API/Publisher_Logos_Controller.php:271
+msgid "Publisher logo already exists"
+msgstr "O logo de editor já existe"
+
+#: includes/REST_API/Publisher_Logos_Controller.php:252
+#: includes/REST_API/Publisher_Logos_Controller.php:263
+#: includes/REST_API/Publisher_Logos_Controller.php:504
+msgid "Invalid ID"
+msgstr "ID inválido"
+
+#: includes/REST_API/Publisher_Logos_Controller.php:153
+#: includes/REST_API/Publisher_Logos_Controller.php:173
+msgid "Sorry, you are not allowed to manage publisher logos."
+msgstr "Você não tem permissão para gerenciar logos de editor."
+
+#: includes/REST_API/Publisher_Logos_Controller.php:123
+#: includes/REST_API/Publisher_Logos_Controller.php:454
+#: includes/Story_Post_Type.php:141
+msgid "Publisher logo ID."
+msgstr "ID do logo de editor."
+
+#: includes/Media/Video/Trimming.php:85
+msgid "End time."
+msgstr "Horário de término."
+
+#: includes/Media/Video/Trimming.php:81
+msgid "Start time."
+msgstr "Horário de início."
+
+#: includes/Media/Video/Trimming.php:77
+msgid "Original attachment id"
+msgstr "ID de anexo original"
+
+#: includes/Media/Video/Trimming.php:72
+msgid "Video trim data."
+msgstr "Dados de corte de vídeo."
+
+#: includes/REST_API/Stories_Media_Controller.php:291
+msgid "Unique identifier for original attachment id."
+msgstr "Identificador único para o ID de anexo original."
+
+#: includes/REST_API/Stories_Base_Controller.php:253
+msgid "Unique identifier for original story id."
+msgstr "Identificador único do ID do story original."
+
+#: includes/REST_API/Stories_Base_Controller.php:190
+msgid "Sorry, you are not allowed to duplicate this story."
+msgstr "Você não tem permissão para duplicar este story."
+
+#: includes/REST_API/Hotlinking_Controller.php:528
+msgid "Sorry, you are not allowed to insert external media."
+msgstr "Você não tem permissão para inserir mídia externa"
+
+#: includes/REST_API/Hotlinking_Controller.php:498
+msgid "Type"
+msgstr "Tipo"
+
+#: includes/REST_API/Hotlinking_Controller.php:492
+msgid "Mime type"
+msgstr "Tipo MIME"
+
+#: includes/REST_API/Hotlinking_Controller.php:487
+msgid "File size"
+msgstr "Tamanho do arquivo"
+
+#: includes/REST_API/Hotlinking_Controller.php:482
+msgid "File name"
+msgstr "Nome do arquivo"
+
+#: includes/REST_API/Hotlinking_Controller.php:476
+msgid "File extension"
+msgstr "Extensão do arquivo"
+
+#: includes/REST_API/Stories_Users_Controller.php:215
+#: includes/REST_API/Stories_Users_Controller.php:223
+msgid "Sorry, you are not allowed to list users."
+msgstr "Você não pode listar usuários."
+
+#: includes/REST_API/Status_Check_Controller.php:190
+msgid "Whether check was successful"
+msgstr "Se a verificação foi bem-sucedida"
+
+#: includes/REST_API/Link_Controller.php:424
+msgid "Link's description"
+msgstr "Descrição do link"
+
+#: includes/REST_API/Link_Controller.php:418
+msgid "Link's image"
+msgstr "Imagem do link"
+
+#: includes/REST_API/Link_Controller.php:413
+msgid "Link's title"
+msgstr "Título do link"
+
+#: includes/REST_API/Embed_Controller.php:314
+msgid "Embed's image"
+msgstr "Imagem incoporada"
+
+#: includes/REST_API/Embed_Controller.php:309
+msgid "Embed's title"
+msgstr "Título incorporado"
+
+#. translators: %s: Custom field key.
+#: includes/Media/Video/Muting.php:198
+msgid "Sorry, you are not allowed to edit the %s custom field."
+msgstr "Não é possível editar o campo personalizado %s."
+
+#: includes/Media/Video/Muting.php:94
+msgid "ID of muted video."
+msgstr "ID do vídeo silenciado."
+
+#: includes/Media/Video/Muting.php:81 includes/Media/Video/Muting.php:116
+msgid "Whether the video is muted"
+msgstr "Se o vídeo está silenciado"
+
+#. translators: demo content used in the "Get Started" story
+#: includes/Demo_Content.php:145
+msgctxt "demo content"
+msgid "Read about best practices for creating successful Web Stories"
+msgstr "Leia sobre as práticas recomendadas para criar Web Stories de sucesso."
+
+#. translators: demo content used in the "Get Started" story
+#: includes/Demo_Content.php:137
+msgctxt "demo content"
+msgid "Embed Visual Stories"
+msgstr "Incorporar stories visuais"
+
+#. translators: demo content used in the "Get Started" story
+#: includes/Demo_Content.php:129
+msgctxt "demo content"
+msgid "Shapes and Masks"
+msgstr "Máscaras e formas"
+
+#. translators: demo content used in the "Get Started" story
+#: includes/Demo_Content.php:121
+msgctxt "demo content"
+msgid "Story System Layer"
+msgstr "Camada de sistema de Stories"
+
+#. translators: demo content used in the "Get Started" story
+#: includes/Demo_Content.php:113
+msgctxt "demo content"
+msgid "Safe Zone"
+msgstr "Zona segura"
+
+#. translators: demo content used in the "Get Started" story
+#: includes/Demo_Content.php:105
+msgctxt "demo content"
+msgid "Background Overlay"
+msgstr "Sobreposição de plano de fundo"
+
+#. translators: demo content used in the "Get Started" story
+#: includes/Demo_Content.php:97
+msgctxt "demo content"
+msgid "Media Edit Mode"
+msgstr "Modo de edição de mídia"
+
+#. translators: demo content used in the "Get Started" story
+#: includes/Demo_Content.php:89
+msgctxt "demo content"
+msgid "Set a page background"
+msgstr "Definir um plano de fundo da página"
+
+#: blocks/embed/block.json
+msgctxt "block keyword"
+msgid "stories"
+msgstr "stories"
+
+#: blocks/embed/block.json
+msgctxt "block keyword"
+msgid "story"
+msgstr "story"
+
+#: blocks/embed/block.json
+msgctxt "block keyword"
+msgid "web stories"
+msgstr "web stories"
+
+#: blocks/embed/block.json
+msgctxt "block keyword"
+msgid "embed"
+msgstr "Mídia incorporada"
+
+#: blocks/embed/block.json
+msgctxt "block description"
+msgid "Embed Web Stories."
+msgstr "Incorporar Web Stories."
+
+#: blocks/embed/block.json
+msgctxt "block title"
+msgid "Web Stories"
+msgstr "Web Stories"
+
+#: includes/REST_API/Stories_Controller.php:238
+msgid "Embed Post Edit Link."
+msgstr "Incorporar link pós-edição"
+
+#: includes/REST_API/Stories_Controller.php:230
+msgctxt "compound noun"
+msgid "Edit Link"
+msgstr "Editar link"
+
+#: includes/Media/Video/Optimization.php:67
+msgid "ID of optimized video."
+msgstr "ID de vídeo otimizado"
+
+#: includes/Settings.php:285 assets/js/web-stories-dashboard.js:52
+msgid "Video Cache"
+msgstr "Cache de vídeos"
+
+#: includes/Admin/Site_Health.php:243
+msgid "Additionally, Web Stories requires HTTPS for most components to work properly, including iframes and videos."
+msgstr "Além disso, o Web Stories exige o protocolo HTTPS para a maioria dos componentes funcionar corretamente, incluindo vídeos e iframes."
+
+#: includes/Admin/Site_Health.php:257 assets/js/web-stories-dashboard.js:52
+msgid "Disabled"
+msgstr "Desabilitado"
+
+#: includes/Admin/Site_Health.php:257
+msgid "Enabled"
+msgstr "Ativado"
+
+#: includes/Admin/Site_Health.php:122
+msgid "Debugging information for the Web Stories plugin."
+msgstr "Como depurar informação no plug-in do Web Stories"
+
+#: includes/Admin/Site_Health.php:114
+msgid "No experiments enabled"
+msgstr "Nenhum experimento ativado"
+
+#: includes/Admin/Customizer.php:225
+msgctxt "noun"
+msgid "View Type"
+msgstr "Tipos de visualização"
+
+#: includes/Page_Template_Post_Type.php:193
+msgctxt "navigation link block description"
+msgid "A link to a page template."
+msgstr "Um link para um modelo de página."
+
+#: includes/Page_Template_Post_Type.php:192
+msgctxt "navigation link block title"
+msgid "Page Template Link"
+msgstr "Link de modelo de página"
+
+#: includes/Page_Template_Post_Type.php:180
+msgctxt "page template"
+msgid "Use as featured image"
+msgstr "Usar como Imagem Destacada"
+
+#: includes/Page_Template_Post_Type.php:179
+msgctxt "page template"
+msgid "Remove featured image"
+msgstr "Remover imagem destacada"
+
+#: includes/Page_Template_Post_Type.php:178
+msgctxt "page template"
+msgid "Set featured image"
+msgstr "Definir imagem destacada"
+
+#: includes/Page_Template_Post_Type.php:177
+msgctxt "page template"
+msgid "Featured Image"
+msgstr "Imagem destacada"
+
+#: includes/Story_Post_Type.php:367
+msgctxt "navigation link block description"
+msgid "A link to a story."
+msgstr "Um link para uma story."
+
+#: includes/Story_Post_Type.php:366
+msgctxt "navigation link block title"
+msgid "Story Link"
+msgstr "Link da Story"
+
+#: includes/Story_Post_Type.php:354
+msgctxt "story"
+msgid "Use as featured image"
+msgstr "Usar como imagem destacada"
+
+#: includes/Story_Post_Type.php:353
+msgctxt "story"
+msgid "Remove featured image"
+msgstr "Remover imagem destacada"
+
+#: includes/Story_Post_Type.php:352
+msgctxt "story"
+msgid "Set featured image"
+msgstr "Definir imagem destacada"
+
+#: includes/Story_Post_Type.php:351
+msgctxt "story"
+msgid "Featured Image"
+msgstr "Imagem destacada"
+
+#: includes/Taxonomy/Tag_Taxonomy.php:96
+msgctxt "navigation link block description"
+msgid "A link to a tag."
+msgstr "Um link para uma tag."
+
+#: includes/Taxonomy/Tag_Taxonomy.php:95
+msgctxt "navigation link block title"
+msgid "Tag Link"
+msgstr "Link da tag"
+
+#: includes/Page_Template_Post_Type.php:181 includes/Story_Post_Type.php:356
+msgid "Filter by date"
+msgstr "Filtrar por data"
+
+#: includes/Admin/Customizer.php:537
+msgid "The number of columns must be between 1 and 4."
+msgstr "O número de colunas precisa ser entre 1 e 4."
+
+#: includes/Admin/Customizer.php:520
+msgid "The number of stories must be between 1 and 20."
+msgstr "O número de stories precisa ser entre 1 e 20."
+
+#: includes/Admin/Customizer.php:463
+msgid "Sharp Corners"
+msgstr "Cantos nítidos "
+
+#: includes/Admin/Customizer.php:209
+msgid "Display stories"
+msgstr "Exibir stories"
+
+#: includes/Admin/Customizer.php:501 includes/Widgets/Stories.php:396
+#: assets/js/web-stories-block.js:8 assets/js/web-stories-tinymce-button.js:1
+msgid "Archive Link Label"
+msgstr "Arquivar rótulo do link"
+
+#: includes/Admin/Customizer.php:312 includes/Widgets/Stories.php:263
+#: assets/js/web-stories-block.js:8 assets/js/web-stories-tinymce-button.js:1
+msgid "Order"
+msgstr "Ordem"
+
+#: includes/Admin/Customizer.php:316 includes/Widgets/Stories.php:258
+#: assets/js/web-stories-block.js:8 assets/js/web-stories-tinymce-button.js:1
+msgid "Descending"
+msgstr "Decrescente"
+
+#: includes/Admin/Customizer.php:315 includes/Widgets/Stories.php:257
+#: assets/js/web-stories-block.js:8 assets/js/web-stories-tinymce-button.js:1
+msgid "Ascending"
+msgstr "Crescente"
+
+#: includes/Admin/Customizer.php:290 includes/Widgets/Stories.php:249
+#: assets/js/web-stories-block.js:8 assets/js/web-stories-tinymce-button.js:1
+msgid "Order By"
+msgstr "Ordernar por"
+
+#: includes/Admin/Customizer.php:294 includes/Widgets/Stories.php:244
+#: assets/js/web-stories-block.js:8 assets/js/web-stories-tinymce-button.js:1
+msgid "Date"
+msgstr "Data"
+
+#: includes/Admin/Customizer.php:246 includes/Widgets/Stories.php:227
+#: assets/js/web-stories-block.js:8 assets/js/web-stories-tinymce-button.js:1
+msgid "Number of Stories"
+msgstr "Número de Stories"
+
+#: includes/Widgets/Stories.php:218 assets/js/web-stories-tinymce-button.js:1
+msgid "Select Layout"
+msgstr "Selecionar layout"
+
+#: includes/Widgets/Stories.php:205
+msgid "Widget Title"
+msgstr "Título do widget"
+
+#: includes/Widgets/Stories.php:103
+msgid "Display Web Stories in sidebar section."
+msgstr "Exibir Web Stories na seção da barra lateral."
+
+#: includes/Stories_Script_Data.php:141 assets/js/web-stories-block.js:8
+msgid "Grid"
+msgstr "Grade"
+
+#: includes/Stories_Script_Data.php:140 assets/js/web-stories-block.js:8
+msgid "Circle Carousel"
+msgstr "Carrossel circular"
+
+#: includes/Stories_Script_Data.php:139 assets/js/web-stories-block.js:8
+msgid "Box Carousel"
+msgstr "Carrossel em caixa"
+
+#: includes/Admin/PluginRowMeta.php:83
+msgid "Leave review"
+msgstr "Avaliar"
+
+#: includes/Admin/PluginRowMeta.php:82
+msgid "Contact support"
+msgstr "Fale conosco"
+
+#: includes/Page_Template_Post_Type.php:191
+msgctxt "add new on admin bar"
+msgid "Page Template"
+msgstr "Modelo da Página"
+
+#: includes/Page_Template_Post_Type.php:190
+msgctxt "admin menu"
+msgid "Page Templates"
+msgstr "Modelos de página"
+
+#: includes/Page_Template_Post_Type.php:189
+msgid "Page Template updated."
+msgstr "Modelo de página atualizado."
+
+#: includes/Page_Template_Post_Type.php:188
+msgid "Page Template scheduled"
+msgstr "Modelo de página agendado"
+
+#: includes/Page_Template_Post_Type.php:187
+msgid "Page Template reverted to draft."
+msgstr "Modelo de página revertido para rascunho."
+
+#: includes/Page_Template_Post_Type.php:186
+msgid "Page Template published privately."
+msgstr "Modelo de página publicado em particular."
+
+#: includes/Page_Template_Post_Type.php:185
+msgid "Page Template published."
+msgstr "Modelo de página publicado."
+
+#: includes/Page_Template_Post_Type.php:184
+msgid "Page Templates list"
+msgstr "Lista de modelos de página"
+
+#: includes/Page_Template_Post_Type.php:183
+msgid "Page Templates list navigation"
+msgstr "Navegação de lista de modelos de página"
+
+#: includes/Page_Template_Post_Type.php:182
+msgid "Filter page templates list"
+msgstr "Filtrar lista de modelos de página"
+
+#: includes/Page_Template_Post_Type.php:176
+msgid "Uploaded to this page template"
+msgstr "Upload feito para este modelo de página"
+
+#: includes/Page_Template_Post_Type.php:175
+msgid "Insert into page template"
+msgstr "Inserir no modelo de página"
+
+#: includes/Page_Template_Post_Type.php:174
+msgid "Page Template Attributes"
+msgstr "Atributos de modelo de página"
+
+#: includes/Page_Template_Post_Type.php:173
+msgid "Page Template Archives"
+msgstr "Arquivos de modelo de página"
+
+#: includes/Page_Template_Post_Type.php:172
+msgid "All Page Templates"
+msgstr "Todos os modelos de página"
+
+#: includes/Page_Template_Post_Type.php:171
+msgid "No page templates found in Trash."
+msgstr "Nenhum modelo de página foi encontrado na Lixeira."
+
+#: includes/Page_Template_Post_Type.php:170 assets/js/web-stories-editor.js:131
+msgid "No page templates found."
+msgstr "Nenhum modelo de página encontrado."
+
+#: includes/Page_Template_Post_Type.php:169
+msgid "Search Page Templates"
+msgstr "Buscar modelos de página"
+
+#: includes/Page_Template_Post_Type.php:168
+msgid "View Page Templates"
+msgstr "Ver modelos de página"
+
+#: includes/Page_Template_Post_Type.php:167
+msgid "View Page Template"
+msgstr "Ver modelo de página"
+
+#: includes/Page_Template_Post_Type.php:166
+msgid "New Page Template"
+msgstr "Novo modelo de página"
+
+#: includes/Page_Template_Post_Type.php:165
+msgid "Edit Page Template"
+msgstr "Editar modelo de página"
+
+#: includes/Page_Template_Post_Type.php:164
+msgid "Add New Page Template"
+msgstr "Adicionar novo modelo de página"
+
+#: includes/Page_Template_Post_Type.php:163
+msgctxt "page template"
+msgid "Add New"
+msgstr "Adicionar novo"
+
+#: includes/Page_Template_Post_Type.php:162
+msgctxt "post type singular name"
+msgid "Page Template"
+msgstr "Modelo da Página"
+
+#: includes/Page_Template_Post_Type.php:161
+msgctxt "post type general name"
+msgid "Page Templates"
+msgstr "Modelos de página"
+
+#: includes/Admin/Customizer.php:269
+#: includes/Renderer/Stories/FieldState/BaseFieldState.php:195
+#: includes/Widgets/Stories.php:291 assets/js/web-stories-block.js:8
+#: assets/js/web-stories-tinymce-button.js:1
+msgid "Number of Columns"
+msgstr "Número de colunas"
+
+#: includes/Admin/Customizer.php:334
+#: includes/Renderer/Stories/FieldState/BaseFieldState.php:179
+#: includes/Widgets/Stories.php:273 assets/js/web-stories-block.js:8
+#: assets/js/web-stories-tinymce-button.js:1
+msgid "Circle Size"
+msgstr "Tamanho do círculo"
+
+#: includes/Renderer/Stories/FieldState/BaseFieldState.php:162
+#: includes/Widgets/Stories.php:371
+msgid "Use Sharp Corners"
+msgstr "Usar cantos nítidos"
+
+#: includes/Admin/Customizer.php:382
+#: includes/Renderer/Stories/FieldState/BaseFieldState.php:145
+#: includes/Widgets/Stories.php:308
+msgid "Display Title"
+msgstr "Exibir titulo"
+
+#: includes/Admin/Customizer.php:483
+#: includes/Renderer/Stories/FieldState/BaseFieldState.php:128
+#: includes/Widgets/Stories.php:384
+msgid "Display Archive Link"
+msgstr "Exibir link de arquivo"
+
+#: includes/Admin/Customizer.php:443
+#: includes/Renderer/Stories/FieldState/BaseFieldState.php:111
+#: includes/Widgets/Stories.php:344
+msgid "Display Date"
+msgstr "Exibir data"
+
+#: includes/Admin/Customizer.php:423
+#: includes/Renderer/Stories/FieldState/BaseFieldState.php:94
+#: includes/Widgets/Stories.php:332
+msgid "Display Author"
+msgstr "Exibir autor"
+
+#: includes/Admin/Customizer.php:403
+#: includes/Renderer/Stories/FieldState/BaseFieldState.php:77
+#: includes/Widgets/Stories.php:320
+msgid "Display Excerpt"
+msgstr "Exibir resumo"
+
+#: includes/Admin/Customizer.php:358
+#: includes/Renderer/Stories/FieldState/BaseFieldState.php:60
+#: includes/Widgets/Stories.php:361 assets/js/web-stories-block.js:8
+#: assets/js/web-stories-tinymce-button.js:1
+msgid "Image Alignment"
+msgstr "Alinhamento de imagem"
+
+#. translators: Date format, see
+#. https://www.php.net/manual/en/datetime.format.php
+#: includes/Renderer/Stories/Renderer.php:331
+msgid "M j, Y"
+msgstr "j \\d\\e F, Y"
+
+#: includes/Renderer/Stories/Carousel_Renderer.php:119
+#: assets/js/web-stories-block.js:10 assets/js/web-stories-editor.js:54
+msgid "Next"
+msgstr "Avançar"
+
+#: includes/Renderer/Stories/Carousel_Renderer.php:118
+#: assets/js/web-stories-block.js:10 assets/js/web-stories-editor.js:54
+msgid "Previous"
+msgstr "Voltar"
+
+#: includes/REST_API/Stories_Lock_Controller.php:407
+msgid "The ID for the author of the lock."
+msgstr "O ID do autor que bloqueou o objeto."
+
+#: includes/REST_API/Stories_Lock_Controller.php:398
+msgid "If the current object is locked or not."
+msgstr "Se o objeto atual está bloqueado ou não."
+
+#: includes/REST_API/Stories_Lock_Controller.php:393
+msgid "Nonce value"
+msgstr "Valor de uso único"
+
+#: includes/REST_API/Stories_Lock_Controller.php:388
+msgid "Unix time of lock"
+msgstr "Tempo Unix em que o objeto foi bloqueado"
+
+#: includes/REST_API/Stories_Lock_Controller.php:253
+msgid "Sorry, you are not allowed delete others lock."
+msgstr "Você não pode excluir os objetos bloqueados por outras pessoas."
+
+#: includes/REST_API/Stories_Lock_Controller.php:100
+msgid "Unique identifier for the object."
+msgstr "Identificador único do objeto."
+
+#: includes/REST_API/Stories_Controller.php:222
+msgid "Preview Link."
+msgstr "Link de prévia"
+
+#: includes/Settings.php:232 assets/js/web-stories-dashboard.js:47
+msgid "Google Ad Manager Slot ID"
+msgstr "ID do Slot do Google Ad Manager"
+
+#: includes/Settings.php:221 assets/js/web-stories-dashboard.js:49
+msgid "Google AdSense Slot ID"
+msgstr "ID do Slot do Google AdSense"
+
+#: includes/Settings.php:210 assets/js/web-stories-dashboard.js:48
+msgid "Google AdSense Publisher ID"
+msgstr "ID de editor do Google AdSense"
+
+#: includes/Settings.php:198
+msgid "Ad Network"
+msgstr "Rede de publicidade"
+
+#: includes/Media/SVG.php:363
+msgid "Sorry, this file couldn't be sanitized so for security reasons wasn't uploaded."
+msgstr "Este arquivo não pôde ser limpo. Por razões de segurança, o upload não foi feito."
+
+#: includes/Media/SVG.php:338
+msgid "Unable to generate SVG image size."
+msgstr "Não foi possível gerar o tamanho da imagem SVG."
+
+#: includes/Media/SVG.php:319 includes/Media/SVG.php:358
+msgid "Invalid XML in SVG."
+msgstr "XML inválido no SVG."
+
+#: includes/Experiments.php:257
+msgid "Enable SVG upload"
+msgstr "Ativar upload de SVG"
+
+#: includes/Experiments.php:256
+msgid "SVG upload"
+msgstr "Upload de SVG"
+
+#: includes/REST_API/Stories_Controller.php:406
+msgid "Load demo data."
+msgstr "Carregar dados de demonstração."
+
+#: includes/Admin/Customizer.php:361 includes/Widgets/Stories.php:356
+#: assets/js/web-stories-block.js:8 assets/js/web-stories-editor.js:157
+#: assets/js/web-stories-tinymce-button.js:1
+msgid "Right"
+msgstr "Direita"
+
+#: includes/Admin/Customizer.php:360 includes/Widgets/Stories.php:355
+#: assets/js/web-stories-block.js:8 assets/js/web-stories-tinymce-button.js:1
+msgid "Left"
+msgstr "Esquerda"
+
+#. translators: %s is list of missing extensions
+#: includes/compat/Web_Stories_Compatibility.php:273
+msgid "The following PHP function is missing: %s. Please contact your host to finish installation."
+msgid_plural "The following PHP functions are missing: %s. Please contact your host to finish installation."
+msgstr[0] "A seguinte função PHP está faltando: %s. Entre em contato com o seu host para concluir a instalação."
+msgstr[1] "As seguintes funções PHP estão faltando: %s. Entre em contato com seu host para concluir a instalação."
+
+#. translators: %s is list of missing extensions
+#: includes/compat/Web_Stories_Compatibility.php:229
+msgid "The following PHP class is missing: %s. Please contact your host to finish installation."
+msgid_plural "The following PHP classes are missing: %s. Please contact your host to finish installation."
+msgstr[0] "A seguinte classe PHP está faltando: %s. Entre em contato com o seu host para concluir a instalação."
+msgstr[1] "As seguintes classes PHP estão faltando: %s. Entre em contato com seu host para concluir a instalação."
+
+#. translators: %s is list of missing extensions
+#: includes/compat/Web_Stories_Compatibility.php:185
+msgid "The following PHP extension is missing: %s. Please contact your host to finish installation."
+msgid_plural "The following PHP extensions are missing: %s. Please contact your host to finish installation."
+msgstr[0] "A seguinte extensão PHP está faltando: %s. Entre em contato com o seu host para concluir a instalação."
+msgstr[1] "As seguintes extensões PHP estão faltando: %s. Entre em contato com o seu host para concluir a instalação."
+
+#. translators: Date format, see
+#. https://www.php.net/manual/en/datetime.format.php
+#: includes/Locale.php:54
+msgid "g:i a"
+msgstr "H:i"
+
+#: includes/REST_API/Status_Check_Controller.php:217
+msgid "Sorry, you are not allowed run status check."
+msgstr "Você não tem permissão para executar uma verificação de status."
+
+#: includes/REST_API/Status_Check_Controller.php:105
+msgid "Test HTML content."
+msgstr "Testar o conteúdo HTML."
+
+#: includes/Integrations/Site_Kit.php:169
+msgid "Site Kit by Google"
+msgstr "Site Kit do Google"
+
+#: includes/Integrations/Site_Kit.php:134
+#: includes/Integrations/Site_Kit.php:135
+msgid "https://wordpress.org/plugins/google-site-kit/"
+msgstr "https://br.wordpress.org/plugins/google-site-kit/"
+
+#. translators: Date format, see
+#. https://www.php.net/manual/en/datetime.format.php
+#: includes/Locale.php:51 assets/js/web-stories-editor.js:162
+msgid "d/m/Y"
+msgstr "d/m/Y"
+
+#. translators: %s: publish date.
+#: includes/Renderer/Stories/Renderer.php:772 assets/js/web-stories-block.js:10
+msgid "On %s"
+msgstr "Em %s"
+
+#: includes/Stories_Script_Data.php:142 assets/js/web-stories-block.js:8
+#: assets/js/web-stories-editor.js:129
+msgid "List"
+msgstr "Lista"
+
+#. translators: %s: Number of stories.
+#: includes/Story_Post_Type.php:214
+msgid "%s story restored from the Trash."
+msgid_plural "%s stories restored from the Trash."
+msgstr[0] "%s story restaurada da lixeira."
+msgstr[1] "%s stories restauradas da lixeira."
+
+#. translators: %s: Number of stories.
+#: includes/Story_Post_Type.php:212
+msgid "%s story moved to the Trash."
+msgid_plural "%s stories moved to the Trash."
+msgstr[0] "%s story movida para a Lixeira."
+msgstr[1] "%s stories movidas para a Lixeira."
+
+#. translators: %s: Number of stories.
+#: includes/Story_Post_Type.php:210
+msgid "%s story permanently deleted."
+msgid_plural "%s stories permanently deleted."
+msgstr[0] "%s story deletada permanentemente."
+msgstr[1] "%s stories deletadas permanentemente."
+
+#. translators: %s: Number of stories.
+#: includes/Story_Post_Type.php:208
+msgid "%s story not updated, somebody is editing it."
+msgid_plural "%s stories not updated, somebody is editing them."
+msgstr[0] "%s story não foi atualizada, alguém o está editando."
+msgstr[1] "%s stories não foram atualizadas, alguém o está editando."
+
+#: includes/Story_Post_Type.php:206
+msgid "Story not updated, somebody is editing it."
+msgstr "História não atualizada, alguém está editando."
+
+#. translators: %s: Number of stories.
+#: includes/Story_Post_Type.php:205
+msgid "%s story updated."
+msgid_plural "%s stories updated."
+msgstr[0] "%s story atualizado."
+msgstr[1] "%s stories atualizados."
+
+#: includes/AMP/Output_Buffer.php:237 includes/Integrations/Ezoic.php:138
+msgid "There was an error generating the web story, probably because of a server misconfiguration. Try contacting your hosting provider or open a new support request."
+msgstr "Ocorreu um erro ao gerar a história da web, provavelmente devido a uma configuração incorreta do servidor. Tente entrar em contato com seu provedor de hospedagem ou abra uma nova solicitação de suporte."
+
+#: includes/AMP/Optimization.php:92
+msgid "AMP optimization could not be completed due to the following:"
+msgstr ""
+"61/5000\n"
+"A otimização de AMP não pôde ser concluída devido ao seguinte:"
+
+#: includes/Settings.php:400
+msgid "Default Page Duration"
+msgstr "Duração de página padrão"
+
+#. translators: byline. %s: author name.
+#: includes/Renderer/Stories/Renderer.php:763 assets/js/web-stories-block.js:9
+#: assets/js/web-stories-dashboard.js:43
+msgid "By %s"
+msgstr "Por %s"
+
+#: includes/Admin/Dashboard.php:273 includes/Admin/Dashboard.php:274
+#: includes/Admin/PluginActionLinks.php:82
+#: assets/js/web-stories-dashboard.js:46 assets/js/web-stories-dashboard.js:64
+msgid "Settings"
+msgstr "Configurações "
+
+#. translators: %s: story title.
+#: includes/REST_API/Stories_Base_Controller.php:200
+msgid "%s (Copy)"
+msgstr "%s (Copia)"
+
+#: includes/Shopping/Shopping_Vendors.php:92
+#: assets/js/web-stories-editor.js:106 assets/js/web-stories-editor.js:160
+msgid "None"
+msgstr "Nenhum"
+
+#: includes/Renderer/Stories/Renderer.php:826 assets/js/3669.js:9
+#: assets/js/web-stories-dashboard.js:41 assets/js/web-stories-editor.js:45
+#: assets/js/web-stories-editor.js:56 assets/js/web-stories-editor.js:95
+#: assets/js/web-stories-editor.js:109 assets/js/web-stories-editor.js:114
+#: assets/js/web-stories-editor.js:129
+#: assets/js/web-stories-tinymce-button.js:1
+msgid "Close"
+msgstr "Fechar"
+
+#: includes/Admin/Dashboard.php:262 includes/Admin/Dashboard.php:263
+#: assets/js/web-stories-dashboard.js:8 assets/js/web-stories-dashboard.js:36
+#: assets/js/web-stories-dashboard.js:41
+msgid "Explore Templates"
+msgstr "Explorar modelos"
+
+#: includes/Admin/Customizer.php:634 includes/Block/Web_Stories_Block.php:199
+#: includes/Block/Web_Stories_Block.php:323
+#: includes/Shortcode/Stories_Shortcode.php:76 includes/Story_Query.php:217
+#: includes/Widgets/Stories.php:484
+msgid "View all stories"
+msgstr "Visualizando todos Stories"
+
+#: includes/Admin/Customizer.php:293 includes/Widgets/Stories.php:243
+#: assets/js/web-stories-block.js:1 assets/js/web-stories-block.js:8
+#: assets/js/web-stories-dashboard.js:22
+#: assets/js/web-stories-tinymce-button.js:1
+msgid "Title"
+msgstr "Título"
+
+#: includes/REST_API/Stories_Autosaves_Controller.php:139
+msgid "The ID for the parent of the object."
+msgstr "O ID do pai para o objeto."
+
+#: includes/REST_API/Stories_Controller.php:216
+msgid "Style presets used by all stories"
+msgstr "Conjunto de estilos usado para todas as stories"
+
+#: includes/REST_API/Publisher_Logos_Controller.php:466
+msgid "Publisher logo URL."
+msgstr "URL do logotipo do editor"
+
+#: includes/REST_API/Page_Template_Controller.php:91
+#: includes/REST_API/Products_Controller.php:521
+#: includes/REST_API/Stories_Controller.php:400
+#: includes/REST_API/Stories_Media_Controller.php:206
+msgid "Envelope request for preloading."
+msgstr "Solicitação de envelope para pré-carregamento."
+
+#: includes/REST_API/Embed_Controller.php:342
+msgid "Sorry, you are not allowed to make proxied embed requests."
+msgstr "Sem permissão para fazer solicitações de incorporação por proxy."
+
+#: includes/REST_API/Embed_Controller.php:230
+#: includes/REST_API/Embed_Controller.php:236
+msgid "URL is not a story"
+msgstr "URL não é uma strory"
+
+#: includes/REST_API/Embed_Controller.php:113
+msgid "The URL for which to fetch embed data."
+msgstr "O URL para o qual buscar dados incorporados."
+
+#: includes/REST_API/Font_Controller.php:472
+msgid "Font metrics"
+msgstr "Métricas de fonte"
+
+#: includes/REST_API/Font_Controller.php:466
+msgid "Font service"
+msgstr "Service de Fonte"
+
+#: includes/REST_API/Stories_Controller.php:507
+msgid "The page number requested is larger than the number of pages available."
+msgstr "O número da página solicitada é maior do que o número de páginas disponíveis."
+
+#: includes/REST_API/Link_Controller.php:451
+msgid "Sorry, you are not allowed to process links."
+msgstr "Sem permissão para processar links."
+
+#: includes/REST_API/Embed_Controller.php:146
+#: includes/REST_API/Embed_Controller.php:224
+#: includes/REST_API/Hotlinking_Controller.php:218
+#: includes/REST_API/Hotlinking_Controller.php:264
+#: includes/REST_API/Hotlinking_Controller.php:268
+#: includes/REST_API/Hotlinking_Controller.php:282
+#: includes/REST_API/Hotlinking_Controller.php:341
+#: includes/REST_API/Hotlinking_Controller.php:548
+#: includes/REST_API/Hotlinking_Controller.php:554
+#: includes/REST_API/Link_Controller.php:212
+#: includes/REST_API/Link_Controller.php:469
+msgid "Invalid URL"
+msgstr "URL inválido"
+
+#: includes/REST_API/Hotlinking_Controller.php:158
+#: includes/REST_API/Hotlinking_Controller.php:180
+#: includes/REST_API/Link_Controller.php:110
+msgid "The URL to process."
+msgstr "O URL a ser processado."
+
+#. translators: 1: Blog name, 2: Separator (raquo), 3: Post type name.
+#: includes/Discovery.php:267
+msgid "%1$s %2$s %3$s Feed"
+msgstr "Feed de %1$s %2$s %3$s"
+
+#. translators: Separator between blog name and feed type in feed links.
+#: includes/Discovery.php:265
+msgctxt "feed link"
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#. translators: %s: WordPress version number
+#: includes/compat/Web_Stories_Compatibility.php:122
+msgid "Web Stories requires WordPress %s or higher."
+msgstr "Web Stories requer WordPress %s ou superior."
+
+#. translators: %s: PHP version number
+#: includes/compat/Web_Stories_Compatibility.php:100
+msgid "Web Stories requires PHP %s or higher."
+msgstr "Web Stories requer PHP %s ou superior."
+
+#. translators: %s: build commands.
+#: includes/compat/Web_Stories_Compatibility.php:149
+msgid "You appear to be running an incomplete version of the plugin. Please run %s to finish installation."
+msgstr "Parece que você está executando uma versão incompleta do plugin. Execute %s para terminar a instalação."
+
+#: includes/compat/Web_Stories_Compatibility.php:153 web-stories.php:145
+#: web-stories.php:171
+msgid "Web Stories plugin could not be initialized."
+msgstr "O plugin do Web Stories não pôde ser inicializado."
+
+#: includes/Settings.php:265
+msgid "Publisher Logos"
+msgstr "Logotipo do Editor"
+
+#: includes/Settings.php:254
+msgid "Default Publisher Logo"
+msgstr "Logotipo do editor padrão"
+
+#: includes/Settings.php:175
+msgid "Google Analytics Tracking ID"
+msgstr "ID de rastreamento do Google Analytics"
+
+#: includes/REST_API/Stories_Base_Controller.php:246
+#: includes/Story_Revisions.php:131
+msgid "Story data"
+msgstr "Dados do Story"
+
+#: includes/Story_Post_Type.php:365
+msgctxt "add new on admin bar"
+msgid "Story"
+msgstr "Story"
+
+#: includes/Story_Post_Type.php:364
+msgctxt "admin menu"
+msgid "Stories"
+msgstr "Stories"
+
+#: includes/Story_Post_Type.php:363
+msgid "Story updated."
+msgstr "Story atualizada."
+
+#: includes/Story_Post_Type.php:362
+msgid "Story scheduled"
+msgstr "Story agendada"
+
+#: includes/Story_Post_Type.php:361
+msgid "Story reverted to draft."
+msgstr "Story convertida em rascunho."
+
+#: includes/Story_Post_Type.php:360 assets/js/web-stories-editor.js:161
+msgid "Story published privately."
+msgstr "Story publicada em modo privado."
+
+#: includes/Story_Post_Type.php:359 assets/js/web-stories-editor.js:161
+msgid "Story published."
+msgstr "Story publicada."
+
+#: includes/Story_Post_Type.php:358
+msgid "Stories list"
+msgstr "Lista de Stories"
+
+#: includes/Story_Post_Type.php:357
+msgid "Stories list navigation"
+msgstr "Navegação de lista de Stories"
+
+#: includes/Story_Post_Type.php:350
+msgid "Uploaded to this story"
+msgstr "Enviar para esta story"
+
+#: includes/Story_Post_Type.php:349
+msgid "Insert into story"
+msgstr "Inserir nesta story"
+
+#: includes/Story_Post_Type.php:348
+msgid "Story Attributes"
+msgstr "Atributos de Story"
+
+#: includes/Story_Post_Type.php:347
+msgid "Story Archives"
+msgstr "Arquivos de Story"
+
+#: includes/Story_Post_Type.php:346 assets/js/web-stories-dashboard.js:1
+msgid "All Stories"
+msgstr "Todas Stories"
+
+#: includes/Story_Post_Type.php:345
+msgid "No stories found in Trash."
+msgstr "Nenhuma story encontrada na Lixeira."
+
+#: includes/Story_Post_Type.php:344 assets/js/web-stories-block.js:10
+msgid "No stories found."
+msgstr "Nenhuma story encontrada."
+
+#: includes/Story_Post_Type.php:343 assets/js/web-stories-block.js:5
+#: assets/js/web-stories-dashboard.js:37
+msgid "Search Stories"
+msgstr "Buscar Stories"
+
+#: includes/Story_Post_Type.php:342
+msgid "View Stories"
+msgstr "Ver Stories"
+
+#: includes/Story_Post_Type.php:341
+msgid "View Story"
+msgstr "Ver Story"
+
+#: includes/Story_Post_Type.php:340
+msgid "New Story"
+msgstr "Nova Story"
+
+#: includes/Story_Post_Type.php:339
+msgid "Edit Story"
+msgstr "Editar Story"
+
+#: includes/Story_Post_Type.php:338
+msgid "Add New Story"
+msgstr "Adicionar nova Story"
+
+#: includes/Story_Post_Type.php:337
+msgctxt "story"
+msgid "Add New"
+msgstr "Adicionar nova"
+
+#: includes/Story_Post_Type.php:336
+msgctxt "post type singular name"
+msgid "Story"
+msgstr "Story"
+
+#: includes/Story_Post_Type.php:335
+msgctxt "post type general name"
+msgid "Stories"
+msgstr "Story"
+
+#: includes/Admin/Dashboard.php:571
+msgid "&larr; Return to Web Stories Dashboard"
+msgstr "&larr; Voltar para o painel de Web Stories"
+
+#: includes/Experiments.php:246
+msgid "Enable in-progress template actions"
+msgstr "Ativar ações de template em andamento"
+
+#: includes/Experiments.php:245
+msgid "Template actions"
+msgstr "Ações de Modelo"
+
+#: includes/Experiments.php:221
+msgid "Editor"
+msgstr "Editor"
+
+#: includes/Admin/Dashboard.php:251 includes/Admin/Dashboard.php:252
+#: includes/Experiments.php:220 assets/js/web-stories-dashboard.js:8
+#: assets/js/web-stories-dashboard.js:37
+msgid "Dashboard"
+msgstr "Painel"
+
+#: includes/Experiments.php:219
+msgid "General"
+msgstr "Geral"
+
+#: includes/Experiments.php:204
+msgid "The Web Stories editor includes experimental features that are useable while they're in development. Select the ones you'd like to enable. These features are likely to change, so avoid using them in production."
+msgstr "O editor de histórias da Web inclui recursos experimentais que podem ser usados durante o desenvolvimento. Selecione aqueles que você deseja ativar. Esses recursos provavelmente serão alterados, portanto, evite usá-los na produção."
+
+#: includes/Experiments.php:102 includes/Experiments.php:103
+#: includes/Settings.php:334
+msgid "Experiments"
+msgstr "Experimentos"
+
+#. translators: demo content used in the "Get Started" story
+#: includes/Demo_Content.php:151
+msgctxt "demo content"
+msgid "Best Practices"
+msgstr "Boas Práticas"
+
+#. translators: demo content used in the "Get Started" story
+#: includes/Demo_Content.php:148
+msgctxt "demo content"
+msgid "https://amp.dev/documentation/guides-and-tutorials/start/create_successful_stories/"
+msgstr "https://amp.dev/pt_br/documentation/guides-and-tutorials/start/create_successful_stories/"
+
+#. translators: demo content used in the "Get Started" story
+#: includes/Demo_Content.php:140
+msgctxt "demo content"
+msgid "Embed stories into your blog post. Open the block menu & select the Web Stories block. Insert the story link to embed your story. That's it!"
+msgstr "Incorpore histórias em sua postagem de blog. Abra o menu do bloco e selecione o bloco Web Stories. Insira o link da história para incorporar sua história. É isso aí!"
+
+#. translators: demo content used in the "Get Started" story
+#: includes/Demo_Content.php:132
+msgctxt "demo content"
+msgid "Our shapes are quite basic for now but they act as masks. Drag an image or video into the mask."
+msgstr "Nossas formas são bastante básicas por enquanto, mas atuam como máscaras. Arraste uma imagem ou vídeo para a máscara."
+
+#. translators: demo content used in the "Get Started" story
+#: includes/Demo_Content.php:124
+msgctxt "demo content"
+msgid "The system layer is docked at the top. Preview your story to ensure system layer icons are not blocking crucial elements."
+msgstr "A camada do sistema é encaixada na parte superior. Visualize sua story para garantir que os ícones da camada do sistema não estejam bloqueando elementos cruciais."
+
+#. translators: demo content used in the "Get Started" story
+#: includes/Demo_Content.php:116
+msgctxt "demo content"
+msgid "Add your designs to the page, keeping crucial elements inside the safe zone to ensure they are visible across most devices."
+msgstr "Adicione seus designs à página, mantendo os elementos cruciais dentro da zona segura para garantir que eles sejam visíveis na maioria dos dispositivos."
+
+#. translators: demo content used in the "Get Started" story
+#: includes/Demo_Content.php:108
+msgctxt "demo content"
+msgid "Once you've set a page bg, add a solid, linear or radial gradient overlay to increase text contrast or add visual styling."
+msgstr "Depois de definir um fundo de página, adicione uma sobreposição gradiente sólida, linear ou radial para aumentar o contraste do texto ou adicionar um estilo visual."
+
+#. translators: demo content used in the "Get Started" story
+#: includes/Demo_Content.php:100
+msgctxt "demo content"
+msgid "Double-click the image/video to resize, re-center or crop. Note: media set as page background cannot be cropped."
+msgstr "Clique duas vezes na imagem/vídeo para redimensionar, recentralizar ou cortar. Nota: a mídia definida como plano de fundo da página não pode ser cortada."
+
+#. translators: demo content used in the "Get Started" story
+#: includes/Demo_Content.php:92
+msgctxt "demo content"
+msgid "Drag your image or video to the edge of the page to set as page background."
+msgstr "Arraste sua imagem ou vídeo até a borda da página para definir como plano de fundo da página."
+
+#. translators: demo content used in the "Get Started" story
+#: includes/Demo_Content.php:84
+msgctxt "demo content"
+msgid "Tips to make the most of the Web Stories Editor"
+msgstr "Dicas para aproveitar ao máximo o editor de Web Stories"
+
+#: includes/Demo_Content.php:41
+msgid "Tips to make the most of Web Stories"
+msgstr "Dicas para aproveitar ao máximo Web Stories"
+
+#: includes/templates/admin/dashboard.php:52
+#: includes/templates/admin/edit-story.php:194
+msgid "Please wait..."
+msgstr "Aguarde..."
+
+#: includes/templates/admin/experiments.php:37
+msgid "Experimental Settings"
+msgstr "Configurações experimentais"
+
+#: includes/templates/admin/dashboard.php:59
+#: includes/templates/admin/edit-story.php:205
+msgid "Web Stories for WordPress requires JavaScript. Please enable JavaScript in your browser settings."
+msgstr "Web Stories para WordPress requer JavaScript. Habilite o JavaScript nas configurações do seu navegador."
+
+#: includes/Media/Video/Poster.php:126
+msgid "URL, width and height."
+msgstr "URL, largura e altura."
+
+#: includes/Media/Media_Source_Taxonomy.php:160
+msgid "Media source."
+msgstr "Fonte de mídia."
+
+#: includes/Media/Video/Poster.php:113
+msgid "The ID of the featured media for the object."
+msgstr "O ID da mídia em destaque para o objeto."
+
+#: includes/Media/Video/Poster.php:93
+msgid "Attachment id of generated poster image."
+msgstr "ID de anexo da imagem de pôster gerada."
+
+#: includes/Media/Media_Source_Taxonomy.php:334
+msgid "Source"
+msgstr "Fonte"
+
+#: includes/Story_Post_Type.php:355
+msgid "Filter stories list"
+msgstr "Filtro de lista de stories"
+
+#: includes/Admin/Admin.php:166 includes/Block/Web_Stories_Block.php:272
+#: includes/Embed_Base.php:178
+msgid "Web Story"
+msgstr "Web Story"
+
+#. Author URI of the plugin
+msgid "https://opensource.google.com/"
+msgstr "https://opensource.google.com/"
+
+#. Author of the plugin
+msgid "Google"
+msgstr "Google"
+
+#. Description of the plugin
+msgid "Visual storytelling for WordPress."
+msgstr "Storytelling visual para WordPress."
+
+#. Plugin URI of the plugin
+msgid "https://wp.stories.google/"
+msgstr "https://wp.stories.google/"
+
+#. Plugin Name of the plugin
+#: includes/Admin/Customizer.php:191 includes/Admin/Site_Health.php:121
+#: includes/Renderer/Stories/Carousel_Renderer.php:129
+#: includes/templates/admin/dashboard.php:50
+#: includes/templates/admin/dashboard.php:57
+#: includes/templates/admin/edit-story.php:192
+#: includes/templates/admin/edit-story.php:203 includes/Widgets/Stories.php:101
+#: includes/Widgets/Stories.php:473 assets/js/web-stories-block.js:8
+#: assets/js/web-stories-block.js:10 assets/js/web-stories-dashboard.js:45
+#: assets/js/web-stories-tinymce-button.js:1
+msgid "Web Stories"
+msgstr "Web Stories"
